@@ -1,36 +1,42 @@
-body
+body{
   font-size: 14px;
 }
 
 nav {
-  background color: yellow;
+  background-color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
   width: 100%;
-
+}
 
 section {
   margin: 0 auto;
   width: 60%;
 }
-
+/*This is the site header*/
 h1 {
-  font-family sans-serif;
+  font-family:sans-serif;
   font-size: 2em;
 }
-
+/*The header and div elements share these settings*/
 .example, h3 {
   padding-top: 30px;
-  text-align center
+  text-align: center;
 }
-
+/* This is text for a div element*/
 h3 {
   font-size: 1.3em;
 }
 
+/*This controls the spacing between div containers*/
 .element {
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin: 10px;
   width: 100%;
+}
+/*elementx controls the last three div containers*/
+.elementx {
+  background-color: #95af;
+}
